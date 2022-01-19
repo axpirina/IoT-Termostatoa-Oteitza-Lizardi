@@ -1,12 +1,17 @@
 # ESP8266an oinarrituriko IoT Termostatoa 
 
-ESP8266an oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERBITZAILE baten bitartez. DHT11 Tº eta Hº sentsore batek datuak jaso eta ERRELE baten bitartez hozgailua ON eta OFF egoeratan jarri ahal izatea ahalbidetuko du. 
+Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP8266 mikrokontrolagailuan oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERBITZAILE baten bitartez. Mikrokontrolagailuak DHT11 sentsoreak Tº eta Hº datuak jaso, prosezatu eta ERRELE baten bitartez hozgailua ON eta OFF egoeratan jarriko ditu. 
 
 ## ERABILERA
  
  Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
 
 ## Hardwarea
+<p align="center">
+  <img src="/Irudiak/Termostatoa_bb.png" width="256" height="455">
+ <img src="/Irudiak/WebTermostatoa.png" width="256" height="455">
+</p>
+
 ![Eskema Elektrikoa](/Irudiak/Termostatoa_bb.png)
 
 ## Konfigurazioa
