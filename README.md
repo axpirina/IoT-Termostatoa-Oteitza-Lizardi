@@ -1,5 +1,9 @@
-# ESP8266-12E-DHT-Thermostat
-IoT thermostat using an ESP8266-12E and a DHT 22.  Access web server with a browser to change thermostat settings and view data on google charts.
+# ESP8266an oinarrituriko IoT Termostatoa 
+
+ESP8266an oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERBITZAILE baten bitartez. DHT11 Tº eta Hº sentsore batek datuak jaso eta ERRELE baten bitartez hozgailua ON eta OFF egoeratan jarri ahal izatea ahalbidetuko du. 
+
+Web nabigatzaile baten bitartea <192.168.1.201>
+Access web server with a browser to change thermostat settings and view data on google charts.
 
 Copy the contents of the libraries folder to your Arduino libraries folder. On a windows computer this is usually
 
