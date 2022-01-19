@@ -12,8 +12,6 @@ Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP82
  <img src="/Irudiak/WebTermostatoa.png" width="256" height="455">
 </p>
 
-![Eskema Elektrikoa](/Irudiak/Termostatoa_bb.png)
-
 ## Konfigurazioa
 
  > WIFI-a: ESP8266-DHT.ino artxiboan termostatoa zein wifi-tara konektatuko den konfiguratu. Wifi honek **192.168.1.X** tartean banatu beharko ditu helbideak.
