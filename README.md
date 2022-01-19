@@ -2,7 +2,12 @@
 
 ESP8266an oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERBITZAILE baten bitartez. DHT11 Tº eta Hº sentsore batek datuak jaso eta ERRELE baten bitartez hozgailua ON eta OFF egoeratan jarri ahal izatea ahalbidetuko du. 
 
+## ERABILERA
+ 
+ Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
+
 ## Hardwarea
+
 
 ## Konfigurazioa
 
@@ -26,16 +31,17 @@ int heatOff = 15;
 - ESP8266WiFi.h
 - WiFiClient.h
 - ESP8266WebServer.h
-- FS.h // FOR SPIFFS
-- ctype.h // for isNumber check
+- FS.h 
+- ctype.h 
 - DHT.h
 
 4. [Termostatoaren Arduino Kodea](/ESP8266-DHT.ino)
 
-## ERABILERA
+## Estekak
  
- Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
-
-
 Demostrazio bideoa https://youtu.be/uq5OR8RlGLc
+
+Instructables https://www.instructables.com/ESP8266-12E-DHT-Thermostat/
+
+### Thanks to @dmainmon
 
