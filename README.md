@@ -8,7 +8,7 @@ Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP82
 
 ## Hardwarea
 <p align="center">
-  <img src="/Irudiak/Termostatoa_bb.png" width="256" height="455">
+  <img src="/Irudiak/Termostatoa_bb.png" width="324" height="324">
  <img src="/Irudiak/WebTermostatoa.png" width="256" height="455">
 </p>
 
