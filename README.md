@@ -2,12 +2,40 @@
 
 ESP8266an oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERBITZAILE baten bitartez. DHT11 Tº eta Hº sentsore batek datuak jaso eta ERRELE baten bitartez hozgailua ON eta OFF egoeratan jarri ahal izatea ahalbidetuko du. 
 
-Web nabigatzaile baten bitartea <192.168.1.201>
-Access web server with a browser to change thermostat settings and view data on google charts.
+## Hardwarea
 
-Copy the contents of the libraries folder to your Arduino libraries folder. On a windows computer this is usually
+## Konfigurazioa
 
-documents\Arduino\libraries\
+ > WIFI-a: ESP8266-DHT.ino artxiboan termostatoa zein wifi-tara konektatuko den konfiguratu. Wifi honek **192.168.1.X** tartean banatu beharko ditu helbideak.
+~~~
+const char* ssid     = "yourWiFiSSID";            
+const char* password = "yourWiFiPassword"; 
+~~~
+ 
+  > Tº KONFIGURAZIOA: ESP8266-DHT.ino artxiboan hozgailuaren Tº max eta min konfiguratu (ºC).
+~~~
+int heatOn = 5;
+int heatOff = 15;
+~~~
+ 
+   > PROGRAMAZIOA: Arduino IDE-aren bitartez ESP8266-DHT.ino artxiboa NODEMCU-ra igo.
 
-Video demonstration https://youtu.be/uq5OR8RlGLc
+1. [Arduino IDE Download](https://www.arduino.cc/en/software)
+2. [Installing NODEMCU on Arduino IDE](https://create.arduino.cc/projecthub/najad/using-arduino-ide-to-program-nodemcu-33e899)
+3. Hurrengo liburutegiak instalatu Arduino IDE-an.
+- ESP8266WiFi.h
+- WiFiClient.h
+- ESP8266WebServer.h
+- FS.h // FOR SPIFFS
+- ctype.h // for isNumber check
+- DHT.h
+
+4. [Termostatoaren Arduino Kodea](/ESP8266-DHT.ino)
+
+## ERABILERA
+ 
+ Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
+
+
+Demostrazio bideoa https://youtu.be/uq5OR8RlGLc
 
