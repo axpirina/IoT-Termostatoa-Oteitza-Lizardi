@@ -6,11 +6,22 @@ Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP82
  
  Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
 
-## Hardwarea
+## Hardwarea 
+Eskema elektrikoa eta kaxa. 
 <p align="center">
   <img src="/Irudiak/Termostatoa_bb.png" width="324" height="324">
- <img src="/Irudiak/WebTermostatoa.png" width="256" height="455">
+  <img src="/Irudiak/kaxa.jpeg" width="460" height="300">
 </p>
+
+## Elementuen lista
+
+|Elementuak| Kantitatea | Link | 
+|---|---|---|
+| NodeMCU V2| 1 |[Electroson](https://www.electrosonsansebastian.com/eu/placas-de-desarrollo/37815-placa-de-desarrollo-nodemcu-v2-lua-esp8266.html)|
+| DHT11| 1 |[Electroson](https://www.electrosonsansebastian.com/eu/sensores/38012-sensor-de-temperatura-y-humedad-digital-dht11-para-arduino.html)|
+| 1 Relay Shield| 1 |[E-IKA](https://www.e-ika.com/modulo-rele-1-canal-para-arduino)|
+| Jumper| 1 |[E-IKA](https://www.e-ika.com/cables-dupont-100cm-h-h-40-uds)|
+
 
 ## Konfigurazioa
 
