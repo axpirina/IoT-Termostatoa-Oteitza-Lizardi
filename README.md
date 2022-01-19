@@ -7,7 +7,7 @@ ESP8266an oinarrituriko termostatoak HOZGAILU baten kontrola hartuko du WEB ZERB
  Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa.
 
 ## Hardwarea
-
+![Eskema Elektrikoa](/Irudiak/Termostatoa_bb.png)
 
 ## Konfigurazioa
 
