@@ -6,7 +6,7 @@ Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP82
  
  Web nabigatzaile baten bitartez, [192.168.1.201](http://192.168.1.201) helbidean aurkituko dugu gure termostatoa. WebTermostato interfase bitartez  hozgailuaren kontsigna tenperaturak konfiguratu ahal izango ditugu gure hozgailuaren Tº max eta Tº min kontrolatzeko.
 <p align="center">
-  <img src="/Irudiak/WebTermostatoa_IoT.png" width="524" height="210">
+  <img src="/Irudiak/WebTermostatoa.png" width="600" height="210">
 </p>
 
 
@@ -25,6 +25,8 @@ Eskema elektrikoa eta kaxa.
 | DHT11| 1 |[Electroson](https://www.electrosonsansebastian.com/eu/sensores/38012-sensor-de-temperatura-y-humedad-digital-dht11-para-arduino.html)|
 | 1 Relay Shield| 1 |[E-IKA](https://www.e-ika.com/modulo-rele-1-canal-para-arduino)|
 | Jumper| 1 |[E-IKA](https://www.e-ika.com/cables-dupont-100cm-h-h-40-uds)|
+
+> Oharra: Relay shield-a erosterako garaian kontuan izan 3,3V tako irteerez gidatu daitekeen errelea izan behar duela, ez 5Vz soilik. HON WEI etxeko JQC3F errele shield-ek adibidez funtzio hau betetzen dute.
 
 ## Arduino IDE-a eta Kodea
 ESP8266 mikrokontrolagailua programatu ahal izateko Arduino IDE-a eta zenbait liburutegi beharko ditugu. Oinarrian **Arduino IDE**-aren bitartez **ESP8266-DHT.ino** artxiboa **NodeMCU**-ra igo beharko dugu.
@@ -59,7 +61,7 @@ int heatOff = 15;
 
 ## Estekak
  
-Demostrazio bideoa https://youtu.be/uq5OR8RlGLc
+Adibide bideoa https://youtu.be/uq5OR8RlGLc
 
 Instructables https://www.instructables.com/ESP8266-12E-DHT-Thermostat/
 
