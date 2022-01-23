@@ -4,7 +4,7 @@ Hozgailu baten kontrola izango duen Web Termostatoa da hurrengo proiektua. ESP82
 
 ## ERABILERA
  
- Web nabigatzaile baten bitartez, [192.168.1.201](192.168.1.201) helbidean aurkituko dugu gure termostatoa. WebTermostato interfase bitartez  hozgailuaren kontsigna tenperaturak konfiguratu ahal izango ditugu gure hozgailuaren Tº max eta Tº min kontrolatzeko.
+ Web nabigatzaile baten bitartez, [192.168.1.201](http://192.168.1.201) helbidean aurkituko dugu gure termostatoa. WebTermostato interfase bitartez  hozgailuaren kontsigna tenperaturak konfiguratu ahal izango ditugu gure hozgailuaren Tº max eta Tº min kontrolatzeko.
 <p align="center">
   <img src="/Irudiak/WebTermostatoa_IoT.png" width="524" height="210">
 </p>
