@@ -16,8 +16,8 @@
 const char* ssid     = "TeknoLizardi";
 const char* password = "TeknoLizardi";
 
-int coolOff = 7;
-int coolOn = 15;
+int coolOff = 2;
+int coolOn = 6;
 String relayState = "OFF";
 const static String fName = "prop.txt";
 const static String dfName = "data.txt";
