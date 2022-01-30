@@ -13,8 +13,8 @@
 #define DHTPIN  2 // D4
 #define RELAYPIN 4 // D2
 
-const char* ssid     = "Tekno";
-const char* password = "TeknoLizardi";
+const char* ssid     = "Zure Wifia";
+const char* password = "Zure Pasahitza";
 
 int coolOff = 2;
 int coolOn = 6;
