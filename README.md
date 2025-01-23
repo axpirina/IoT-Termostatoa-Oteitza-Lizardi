@@ -32,7 +32,7 @@ Eskema elektrikoa eta kaxa.
 ESP8266 mikrokontrolagailua programatu ahal izateko Arduino IDE-a eta zenbait liburutegi beharko ditugu. Oinarrian **Arduino IDE**-aren bitartez **ESP8266-DHT.ino** artxiboa **NodeMCU**-ra igo beharko dugu.
 
 1. [Arduino IDE Download](https://www.arduino.cc/en/software)
-2. [Installing NodeMCU on Arduino IDE]([https://projecthub.arduino.cc/PatelDarshil/getting-started-with-nodemcu-esp8266-on-arduino-ide-b193c3])
+2. [Installing NodeMCU on Arduino IDE](https://projecthub.arduino.cc/PatelDarshil/getting-started-with-nodemcu-esp8266-on-arduino-ide-b193c3)
 3. Hurrengo liburutegiak instalatu Arduino IDE-an.
 - ESP8266WiFi.h
 - WiFiClient.h
