@@ -31,7 +31,7 @@ Eskema elektrikoa eta kaxa.
 ## NODEMCU V2 aren Pinout-a
 Oso kontuan izan Arduino kodean Nodemcu-aren GPIO zenbakiak adierazi beharko dituzuela.
 <p align="center">
-  <img src="/Irudiak/NodeMCU_Pinout.png" width="324" height="300">
+  <img src="/Irudiak/NodeMCU_Pinout.png" width="640" height="300">
 </p>
 
 
