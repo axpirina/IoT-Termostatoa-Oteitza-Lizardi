@@ -28,6 +28,13 @@ Eskema elektrikoa eta kaxa.
 
 > Oharra: Relay shield-a erosterako garaian kontuan izan 3,3V tako irteerez gidatu daitekeen errelea izan behar duela, ez 5Vz soilik. HON WEI etxeko JQC3F errele shield-ek adibidez funtzio hau betetzen dute.
 
+## NODEMCU V2 aren Pinout-a
+Oso kontuan izan Arduino kodean Nodemcu-aren GPIO zenbakiak adierazi beharko dituzuela.
+<p align="center">
+  <img src="/Irudiak/NodeMCU_Pinout.png" width="324" height="300">
+</p>
+
+
 ## Arduino IDE-a eta Kodea
 ESP8266 mikrokontrolagailua programatu ahal izateko Arduino IDE-a eta zenbait liburutegi beharko ditugu. Oinarrian **Arduino IDE**-aren bitartez **ESP8266-DHT.ino** artxiboa **NodeMCU**-ra igo beharko dugu.
 
