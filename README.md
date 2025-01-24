@@ -73,7 +73,7 @@ int heatOn = 5;
 int heatOff = 15;
 ~~~
 
-  > IP HELBIDEA KONFIGURATU: Zuen sareko egituraren arabera IP helbide bat eman NodeMcu-ari.
+> IP HELBIDEA KONFIGURATU: Zuen sareko egituraren arabera IP helbide bat eman NodeMcu-ari.
 ~~~
 WiFi.config(IPAddress(**192, 168, 0, 201**), IPAddress(192, 168, 0, 1), IPAddress(255, 255, 255, 0));
 ~~~
