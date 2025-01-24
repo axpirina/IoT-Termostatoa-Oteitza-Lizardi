@@ -41,7 +41,8 @@ ESP8266 mikrokontrolagailua programatu ahal izateko Arduino IDE-a eta zenbait li
 - ctype.h 
 - DHT.h
 
-- Horretarako hurrengo liburutegia konposatuak instalatzea nahikoa dela ikusi da 2025ean:
+  Eta Horretarako hurrengo liburutegia konposatuak instalatzea nahikoa dela ikusi da 2025ean:
+  
 - SimpleWifiClient by Toemblom
 - IoTtweet by Isaranu
 - DHT Sensor Libray by Adafruit
