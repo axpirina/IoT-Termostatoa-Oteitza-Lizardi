@@ -34,19 +34,19 @@ ESP8266 mikrokontrolagailua programatu ahal izateko Arduino IDE-a eta zenbait li
 1. [Arduino IDE Download](https://www.arduino.cc/en/software)
 2. [Installing NodeMCU on Arduino IDE](https://projecthub.arduino.cc/PatelDarshil/getting-started-with-nodemcu-esp8266-on-arduino-ide-b193c3)
 3. Hurrengo liburutegiak instalatu Arduino IDE-an.
-- ESP8266WiFi.h
-- WiFiClient.h
-- ESP8266WebServer.h
-- FS.h 
-- ctype.h 
-- DHT.h
+   - ESP8266WiFi.h
+   - WiFiClient.h
+   - ESP8266WebServer.h
+   - FS.h 
+   - ctype.h 
+   - DHT.h
 
   Eta Horretarako hurrengo liburutegia konposatuak instalatzea nahikoa dela ikusi da 2025ean:
   
-- SimpleWifiClient by Toemblom
-- IoTtweet by Isaranu
-- DHT Sensor Libray by Adafruit
-- AVision_ESP8266 by AVision
+   - SimpleWifiClient by Toemblom
+   - IoTtweet by Isaranu
+   - DHT Sensor Libray by Adafruit
+   - AVision_ESP8266 by AVision
 
 4. [Termostatoaren Arduino Kodea](/ESP8266-DHT.ino)
 
